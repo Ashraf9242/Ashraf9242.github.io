@@ -1,0 +1,17 @@
+-- Insert sample projects
+INSERT INTO projects (title, description, image_url, technologies, github_url, live_url, featured) VALUES
+('E-Commerce Platform', 'A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.', '/placeholder.svg?height=300&width=400', ARRAY['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL', 'Tailwind CSS'], 'https://github.com/johndoe/ecommerce-platform', 'https://ecommerce-demo.vercel.app', true),
+('Task Management App', 'A collaborative task management application with real-time updates and team collaboration features.', '/placeholder.svg?height=300&width=400', ARRAY['React', 'Node.js', 'Socket.io', 'MongoDB', 'Material-UI'], 'https://github.com/johndoe/task-manager', 'https://taskmanager-demo.vercel.app', true),
+('Weather Dashboard', 'A responsive weather dashboard with location-based forecasts and interactive charts.', '/placeholder.svg?height=300&width=400', ARRAY['Vue.js', 'Chart.js', 'OpenWeather API', 'Vuetify'], 'https://github.com/johndoe/weather-dashboard', 'https://weather-demo.vercel.app', false),
+('Social Media Analytics', 'Analytics dashboard for social media metrics with data visualization and reporting features.', '/placeholder.svg?height=300&width=400', ARRAY['React', 'D3.js', 'Python', 'FastAPI', 'PostgreSQL'], 'https://github.com/johndoe/social-analytics', 'https://analytics-demo.vercel.app', false),
+('Mobile Fitness App', 'Cross-platform mobile app for fitness tracking with workout plans and progress monitoring.', '/placeholder.svg?height=300&width=400', ARRAY['React Native', 'Firebase', 'Redux', 'Expo'], 'https://github.com/johndoe/fitness-app', 'https://fitness-demo.vercel.app', false),
+('AI Chat Assistant', 'Intelligent chat assistant powered by OpenAI with context awareness and conversation memory.', '/placeholder.svg?height=300&width=400', ARRAY['Next.js', 'OpenAI API', 'Vercel AI SDK', 'Supabase'], 'https://github.com/johndoe/ai-chat', 'https://aichat-demo.vercel.app', true);
+
+-- Insert sample certificates
+INSERT INTO certificates (name, issuer, date, image_url, pdf_url, verification_url, skills) VALUES
+('AWS Certified Solutions Architect', 'Amazon Web Services', '2024-01-15', '/placeholder.svg?height=300&width=400', '/certificates/aws-solutions-architect.pdf', 'https://aws.amazon.com/verification/12345', ARRAY['AWS', 'Cloud Architecture', 'DevOps']),
+('Google Cloud Professional Developer', 'Google Cloud', '2023-11-20', '/placeholder.svg?height=300&width=400', '/certificates/gcp-developer.pdf', 'https://cloud.google.com/certification/verify/12345', ARRAY['GCP', 'Kubernetes', 'Microservices']),
+('Meta React Developer Certificate', 'Meta (Facebook)', '2023-08-10', '/placeholder.svg?height=300&width=400', '/certificates/meta-react.pdf', 'https://coursera.org/verify/12345', ARRAY['React', 'JavaScript', 'Frontend']),
+('MongoDB Certified Developer', 'MongoDB University', '2023-05-30', '/placeholder.svg?height=300&width=400', '/certificates/mongodb-developer.pdf', 'https://university.mongodb.com/verify/12345', ARRAY['MongoDB', 'NoSQL', 'Database']),
+('Certified Kubernetes Administrator', 'Cloud Native Computing Foundation', '2023-03-15', '/placeholder.svg?height=300&width=400', '/certificates/cka.pdf', 'https://cncf.io/verify/12345', ARRAY['Kubernetes', 'Container Orchestration', 'DevOps']),
+('Next.js Developer Certification', 'Vercel', '2023-01-20', '/placeholder.svg?height=300&width=400', '/certificates/nextjs-developer.pdf', 'https://vercel.com/verify/12345', ARRAY['Next.js', 'React', 'Full-Stack']);
